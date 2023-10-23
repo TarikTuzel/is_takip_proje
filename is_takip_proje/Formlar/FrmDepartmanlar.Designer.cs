@@ -103,7 +103,7 @@
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(155, 33);
             this.BtnSil.TabIndex = 6;
-            this.BtnSil.Text = "Sil";
+            this.BtnSil.Text = "Delete";
             this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
             // 
             // BtnEkle
@@ -114,7 +114,7 @@
             this.BtnEkle.Name = "BtnEkle";
             this.BtnEkle.Size = new System.Drawing.Size(155, 29);
             this.BtnEkle.TabIndex = 5;
-            this.BtnEkle.Text = "Ekle";
+            this.BtnEkle.Text = "Add";
             this.BtnEkle.Click += new System.EventHandler(this.BtnEkle_Click);
             // 
             // labelControl2
@@ -171,7 +171,6 @@
             this.Controls.Add(this.gridControl1);
             this.Name = "FrmDepartmanlar";
             this.Text = "Departmanlar";
-           
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
